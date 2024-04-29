@@ -5,7 +5,6 @@ function refresh(response) {
   header.innerHTML = response.data.city;
   number.innerHTML = Math.round(inn);
 }
-
 function search(city) {
   let apiKey = "bc3oce1f08d78tf8ca46cbb33abcbc6d";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
